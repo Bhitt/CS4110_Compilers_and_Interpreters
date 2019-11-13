@@ -22,12 +22,12 @@ public class Trie_Structure_Implementation {
      */
     public static void main(String[] args) {
         Trie trie = new Trie();
-        trie.insert("absolute");
-        trie.insert("absolutely");
-        trie.insert("abs");
-        trie.insert("absent");
-        trie.insert("brown");
-        trie.insert("Able");
+        trie.insert("fatass");
+        trie.insert("dumb");
+        trie.insert("bitch");
+        trie.insert("flowers");
+        trie.insert("wrestlers");
+        trie.insert("Glow");
         trie.printTrie();
         
     }

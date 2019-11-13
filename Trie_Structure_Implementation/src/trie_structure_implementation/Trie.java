@@ -12,7 +12,7 @@
 package trie_structure_implementation;
 
 /**
- *
+ * 
  * @author bhitt
  */
 public class Trie {
@@ -177,8 +177,8 @@ public class Trie {
         int start = 0;
         int end = 20;
         while(!stop){
-            if(end > (symbolIndex-1)){
-                end = ((symbolIndex-1)%20)+start;
+            if(end > symbolIndex){
+                end = (symbolIndex%20)+start;
                 stop = true;
             }
             System.out.print("        ");
