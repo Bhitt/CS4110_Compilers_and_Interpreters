@@ -1,0 +1,6 @@
+Program ::= Decl+
+Decl ::= VariableDecl | FunctionDecl | ClassDecl | InterfaceDecl
+VariableDecl ::= Variable ;
+Variable ::= Type id
+Type ::= int | double | boolean | string | Type [] | id
+FunctionDecl ::= Type id ( Formals ) StmtBlock | void id ( Formals ) StmtBlock
